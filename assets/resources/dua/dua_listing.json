@@ -1,0 +1,51 @@
+[{
+        "id": 1,
+        "name": "Morning & Evening Adhkar"
+    },
+
+    {
+        "id": 2,
+        "name": "Home and Family"
+    },
+    {
+        "id": 3,
+        "name": "Food & Drink"
+
+    }, {
+        "id": 4,
+        "name": "Joy & Distress"
+
+    }, {
+        "id": 5,
+        "name": "Travel"
+
+
+    }, {
+        "id": 6,
+        "name": "Prayer"
+
+    }, {
+        "id": 7,
+        "name": "Praising Allah"
+
+    }, {
+        "id": 8,
+        "name": "Hajj & Umrah"
+
+    },
+    {
+        "id": 9,
+        "name": "Good Etiquette"
+    },
+
+    {
+        "id": 10,
+        "name": "Nature"
+
+    }, {
+        "id": 11,
+        "name": "Sickness and Death"
+
+    }
+
+]

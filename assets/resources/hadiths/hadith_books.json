@@ -1,0 +1,22 @@
+[{
+        "id": 1,
+        "collection": "Sahih al-Bukhari",
+        "author": "Muhammad al-Bukhari"
+    },
+    {
+        "id": 2,
+        "collection": "Sahih al-Tirmidhi",
+        "author": "Al-Tirmidhi"
+    },
+    {
+        "id": 3,
+        "collection": "Sunan ibn Majah",
+        "author": "Sunan ibn Majah"
+    },
+    {
+        "id": 4,
+        "collection": "Sahih Muslim",
+        "author": "Muslim ibn al-Ḥajjāj"
+    }
+
+]

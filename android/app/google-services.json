@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "343129270576",
+    "project_id": "luthfullahi-new",
+    "storage_bucket": "luthfullahi-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343129270576:android:22bd37b5349fcc486900f5",
+        "android_client_info": {
+          "package_name": "com.babaloworo.luthfullahiApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343129270576-hcsm0ji3cjc4lfndacu8s0r3mgk05lor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.babaloworo.luthfullahiApp",
+            "certificate_hash": "88003c0167d5e5c3859d90aa76f910332a837e4b"
+          }
+        },
+        {
+          "client_id": "343129270576-n5je0ga6rb2bqb5p7vp0spl2kuqk74g6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.babaloworo.luthfullahiApp",
+            "certificate_hash": "0f47e24977136baa24efa18558813111b66a9adf"
+          }
+        },
+        {
+          "client_id": "343129270576-pi0k12d0ikb56bo0qnlm2qigqkh7olt1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.babaloworo.luthfullahiApp",
+            "certificate_hash": "c8279545dde3902d7afe7da44368fc85d6396243"
+          }
+        },
+        {
+          "client_id": "343129270576-908dl2l0c9lqko46q0n0i9rqqerog7pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXx1Y9KPafGtty6kkSTNlf7yDeUYxRZZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343129270576-908dl2l0c9lqko46q0n0i9rqqerog7pm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "343129270576-l9q66spd642tlk9bv4c01mpkq6scsmho.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.babaloworo.luthfullahi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343129270576:android:20d5f61ac92eb5e96900f5",
+        "android_client_info": {
+          "package_name": "com.babaloworo.luthfullahiApp.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343129270576-908dl2l0c9lqko46q0n0i9rqqerog7pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXx1Y9KPafGtty6kkSTNlf7yDeUYxRZZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343129270576-908dl2l0c9lqko46q0n0i9rqqerog7pm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "343129270576-l9q66spd642tlk9bv4c01mpkq6scsmho.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.babaloworo.luthfullahi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

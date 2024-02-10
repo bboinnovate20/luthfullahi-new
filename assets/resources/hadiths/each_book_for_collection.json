@@ -1,0 +1,1149 @@
+[{
+        "id": 1,
+        "collection": "bukhari",
+        "total": 97,
+        "page": 1,
+        "limit": 50,
+        "books": [{
+                "id": 1,
+                "name": "Revelation",
+                "arabic_name": "كتاب بدء الوحى ",
+                "hadiths": 7
+            },
+            {
+                "id": 2,
+                "name": "Belief",
+                "arabic_name": "كتاب الإيمان ",
+                "hadiths": 51
+            },
+            {
+                "id": 3,
+                "name": "Knowledge",
+                "arabic_name": "كتاب العلم ",
+                "hadiths": 76
+            },
+            {
+                "id": 4,
+                "name": "Ablutions (Wudu')",
+                "arabic_name": "كتاب الوضوء",
+                "hadiths": 113
+            },
+            {
+                "id": 5,
+                "name": "Bathing (Ghusl)",
+                "arabic_name": "كتاب الغسل ",
+                "hadiths": 45
+            },
+            {
+                "id": 6,
+                "name": "Menstrual Periods",
+                "arabic_name": "كتاب الحيض ",
+                "hadiths": 37
+            },
+            {
+                "id": 7,
+                "name": "Rubbing hands and feet with dust (Tayammum)",
+                "arabic_name": "كتاب التيمم ",
+                "hadiths": 15
+            },
+            {
+                "id": 8,
+                "name": "Prayers (Salat)",
+                "arabic_name": "كتاب الصلاة ",
+                "hadiths": 167
+            },
+            {
+                "id": 9,
+                "name": "Times of the Prayers",
+                "arabic_name": "كتاب مواقيت الصلاة ",
+                "hadiths": 77
+            },
+            {
+                "id": 10,
+                "name": "Call to Prayers (Adhaan)",
+                "arabic_name": "كتاب الأذان ",
+                "hadiths": 266
+            },
+            {
+                "id": 11,
+                "name": "Friday Prayer",
+                "arabic_name": "كتاب الجمعة ",
+                "hadiths": 65
+            },
+            {
+                "id": 12,
+                "name": "Fear Prayer",
+                "arabic_name": "كتاب صلاة الخوف ",
+                "hadiths": 6
+            },
+            {
+                "id": 13,
+                "name": "The Two Festivals (Eids)",
+                "arabic_name": "كتاب العيدين ",
+                "hadiths": 37
+            },
+            {
+                "id": 14,
+                "name": "Witr Prayer",
+                "arabic_name": "كتاب الوتر ",
+                "hadiths": 15
+            },
+            {
+                "id": 15,
+                "name": "Invoking Allah for Rain (Istisqaa)",
+                "arabic_name": "كتاب الاستسقاء ",
+                "hadiths": 34
+            },
+            {
+                "id": 16,
+                "name": "Eclipses",
+                "arabic_name": "كتاب الكسوف ",
+                "hadiths": 24
+            },
+            {
+                "id": 17,
+                "name": "Prostration During Recital of Qur'an",
+                "arabic_name": "كتاب سجود القرآن ",
+                "hadiths": 13
+            },
+            {
+                "id": 18,
+                "name": "Shortening the Prayers (At-Taqseer)",
+                "arabic_name": "كتاب التقصير ",
+                "hadiths": 39
+            },
+            {
+                "id": 19,
+                "name": "Prayer at Night (Tahajjud)",
+                "arabic_name": "كتاب التهجد ",
+                "hadiths": 63
+            },
+            {
+                "id": 20,
+                "name": "Virtues of Prayer at Masjid Makkah and Madinah",
+                "arabic_name": "كتاب فضل الصلاة فى مسجد مكة والمدينة ",
+                "hadiths": 9
+            },
+            {
+                "id": 21,
+                "name": "Actions while Praying",
+                "arabic_name": "كتاب العمل فى الصلاة ",
+                "hadiths": 27
+            },
+            {
+                "id": 22,
+                "name": "Forgetfulness in Prayer",
+                "arabic_name": "كتاب السهو ",
+                "hadiths": 14
+            },
+            {
+                "id": 23,
+                "name": "Funerals (Al-Janaa'iz)",
+                "arabic_name": "كتاب الجنائز",
+                "hadiths": 148
+            },
+            {
+                "id": 24,
+                "name": "Obligatory Charity Tax (Zakat)",
+                "arabic_name": "كتاب الزكاة ",
+                "hadiths": 112
+            },
+            {
+                "id": 25,
+                "name": "Hajj (Pilgrimage)",
+                "arabic_name": "كتاب الحج ",
+                "hadiths": 247
+            },
+            {
+                "id": 26,
+                "name": "`Umrah (Minor pilgrimage)",
+                "arabic_name": "كتاب العمرة ",
+                "hadiths": 30
+            },
+            {
+                "id": 27,
+                "name": "Pilgrims Prevented from Completing the Pilgrimage",
+                "arabic_name": "كتاب المحصر ",
+                "hadiths": 15
+            },
+            {
+                "id": 28,
+                "name": "Penalty of Hunting while on Pilgrimage",
+                "arabic_name": "كتاب جزاء الصيد ",
+                "hadiths": 46
+            },
+            {
+                "id": 29,
+                "name": "Virtues of Madinah",
+                "arabic_name": "كتاب فضائل المدينة ",
+                "hadiths": 24
+            },
+            {
+                "id": 30,
+                "name": "Fasting",
+                "arabic_name": "كتاب الصوم ",
+                "hadiths": 112
+            },
+            {
+                "id": 31,
+                "name": "Praying at Night in Ramadaan (Taraweeh)",
+                "arabic_name": "كتاب صلاة التراويح ",
+                "hadiths": 6
+            },
+            {
+                "id": 32,
+                "name": "Virtues of the Night of Qadr",
+                "arabic_name": "كتاب فضل ليلة القدر ",
+                "hadiths": 11
+            },
+            {
+                "id": 33,
+                "name": "Retiring to a Mosque for Remembrance of Allah (I'tikaf)",
+                "arabic_name": "كتاب الاعتكاف ",
+                "hadiths": 21
+            },
+            {
+                "id": 34,
+                "name": "Sales and Trade",
+                "arabic_name": "كتاب البيوع",
+                "hadiths": 184
+            },
+            {
+                "id": 35,
+                "name": "Sales in which a Price is paid for Goods to be Delivered Later (As-Salam)",
+                "arabic_name": "كتاب السلم ",
+                "hadiths": 16
+            },
+            {
+                "id": 36,
+                "name": "Shuf'a",
+                "arabic_name": "كتاب الشفعة ",
+                "hadiths": 3
+            },
+            {
+                "id": 37,
+                "name": "Hiring",
+                "arabic_name": "كتاب الإجارة ",
+                "hadiths": 25
+            },
+            {
+                "id": 38,
+                "name": "Transferance of a Debt from One Person to Another (Al-Hawaala)",
+                "arabic_name": "كتاب الحوالات ",
+                "hadiths": 3
+            },
+            {
+                "id": 39,
+                "name": "Kafalah",
+                "arabic_name": "كتاب الكفالة ",
+                "hadiths": 9
+            },
+            {
+                "id": 40,
+                "name": "Representation, Authorization, Business by Proxy",
+                "arabic_name": "كتاب الوكالة ",
+                "hadiths": 18
+            },
+            {
+                "id": 41,
+                "name": "Agriculture",
+                "arabic_name": "كتاب المزارعة ",
+                "hadiths": 28
+            },
+            {
+                "id": 42,
+                "name": "Distribution of Water",
+                "arabic_name": "كتاب المساقاة ",
+                "hadiths": 31
+            },
+            {
+                "id": 43,
+                "name": "Loans, Payment of Loans, Freezing of Property, Bankruptcy",
+                "arabic_name": "كتاب فى الاستقراض ",
+                "hadiths": 24
+            },
+            {
+                "id": 44,
+                "name": "Khusoomaat",
+                "arabic_name": "كتاب الخصومات ",
+                "hadiths": 15
+            },
+            {
+                "id": 45,
+                "name": "Lost Things Picked up by Someone (Luqatah)",
+                "arabic_name": "كتاب فى اللقطة ",
+                "hadiths": 15
+            },
+            {
+                "id": 46,
+                "name": "Oppressions",
+                "arabic_name": "كتاب المظالم",
+                "hadiths": 43
+            },
+            {
+                "id": 47,
+                "name": "Partnership",
+                "arabic_name": "كتاب الشركة ",
+                "hadiths": 22
+            },
+            {
+                "id": 48,
+                "name": "Mortgaging",
+                "arabic_name": "كتاب الرهن ",
+                "hadiths": 8
+            },
+            {
+                "id": 49,
+                "name": "Manumission of Slaves",
+                "arabic_name": "كتاب العتق ",
+                "hadiths": 41
+            },
+            {
+                "id": 50,
+                "name": "Makaatib",
+                "arabic_name": "كتاب المكاتب ",
+                "hadiths": 6
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "collection": "tirmidhi",
+        "total": 49,
+        "page": 1,
+        "limit": 50,
+        "books": [{
+                "id": 1,
+                "name": "The Book on Purification",
+                "arabic_name": " كتاب الطهارة عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 148
+            },
+            {
+                "id": 2,
+                "name": "The Book on Salat (Prayer)",
+                "arabic_name": " كتاب الصلاة",
+                "hadiths": 304
+            },
+            {
+                "id": 3,
+                "name": "The Book on Al-Witr",
+                "arabic_name": "أَبْوَابُ الْوِتْرِ",
+                "hadiths": 35
+            },
+            {
+                "id": 4,
+                "name": "The Book on the Day of Friday",
+                "arabic_name": "كِتَاب الْجُمُعَةِ عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+                "hadiths": 42
+            },
+            {
+                "id": 5,
+                "name": "The Book on the Two Eids",
+                "arabic_name": "أَبْوَابُ الْعِيدَيْنِ عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+                "hadiths": 14
+            },
+            {
+                "id": 6,
+                "name": "The Book on Traveling",
+                "arabic_name": "أَبْوَابُ السَّفَرِ",
+                "hadiths": 73
+            },
+            {
+                "id": 7,
+                "name": "The Book on Zakat",
+                "arabic_name": " كتاب الزكاة عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 65
+            },
+            {
+                "id": 8,
+                "name": "The Book on Fasting",
+                "arabic_name": " كتاب الصوم عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 127
+            },
+            {
+                "id": 9,
+                "name": "The Book on Hajj",
+                "arabic_name": " كتاب الحج عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 158
+            },
+            {
+                "id": 10,
+                "name": "The Book on Jana''iz (Funerals)",
+                "arabic_name": " كتاب الجنائز عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 115
+            },
+            {
+                "id": 11,
+                "name": "The Book on Marriage",
+                "arabic_name": " كتاب النكاح عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 67
+            },
+            {
+                "id": 12,
+                "name": "The Book on Suckling",
+                "arabic_name": " كتاب الرضاع",
+                "hadiths": 29
+            },
+            {
+                "id": 13,
+                "name": "The Book on Divorce and Li'an",
+                "arabic_name": " كتاب الطلاق واللعان عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 31
+            },
+            {
+                "id": 14,
+                "name": "The Book on Business",
+                "arabic_name": " كتاب البيوع عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 125
+            },
+            {
+                "id": 15,
+                "name": "The Chapters On Judgements From The Messenger of Allah",
+                "arabic_name": " كتاب الأحكام عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 66
+            },
+            {
+                "id": 16,
+                "name": "The Book on Blood Money",
+                "arabic_name": " كتاب الديات عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 39
+            },
+            {
+                "id": 17,
+                "name": "The Book on Legal Punishments (Al-Hudud)",
+                "arabic_name": " كتاب الحدود عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 47
+            },
+            {
+                "id": 18,
+                "name": "The Book on Hunting",
+                "arabic_name": "كتاب الصيد والذبائح عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 36
+            },
+            {
+                "id": 19,
+                "name": "The Book on Sacrifices",
+                "arabic_name": " كتاب الأضاحى عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 36
+            },
+            {
+                "id": 20,
+                "name": "The Book on Vows and Oaths",
+                "arabic_name": " كتاب النذور والأيمان عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 26
+            },
+            {
+                "id": 21,
+                "name": "The Book on Military Expeditions",
+                "arabic_name": " كتاب السير عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 83
+            },
+            {
+                "id": 22,
+                "name": "The Book on Virtues of Jihad",
+                "arabic_name": " كتاب فضائل الجهاد عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 52
+            },
+            {
+                "id": 23,
+                "name": "The Book on Jihad",
+                "arabic_name": " كتاب الجهاد عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 53
+            },
+            {
+                "id": 24,
+                "name": "The Book on Clothing",
+                "arabic_name": " كتاب اللباس",
+                "hadiths": 76
+            },
+            {
+                "id": 25,
+                "name": "The Book on Food",
+                "arabic_name": " كتاب الأطعمة عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 78
+            },
+            {
+                "id": 26,
+                "name": "The Book on Drinks",
+                "arabic_name": " كتاب الأشربة عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 37
+            },
+            {
+                "id": 27,
+                "name": "Chapters on Righteousness And Maintaining Good Relations With Relatives",
+                "arabic_name": " كتاب البر والصلة عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 141
+            },
+            {
+                "id": 28,
+                "name": "Chapters on Medicine",
+                "arabic_name": " كتاب الطب عن رسول اللَّهِ صلى الله عليه وسلم",
+                "hadiths": 53
+            },
+            {
+                "id": 29,
+                "name": "Chapters On Inheritance",
+                "arabic_name": " كتاب الفرائض عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 26
+            },
+            {
+                "id": 30,
+                "name": "Chapters On Wasaya (Wills and Testament)",
+                "arabic_name": " كتاب الوصايا عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 9
+            },
+            {
+                "id": 31,
+                "name": "Chapters On Wala' And Gifts",
+                "arabic_name": " كتاب الولاء والهبة عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 9
+            },
+            {
+                "id": 32,
+                "name": "Chapters On Al-Qadar",
+                "arabic_name": " كتاب القدر عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 25
+            },
+            {
+                "id": 33,
+                "name": "Chapters On Al-Fitan",
+                "arabic_name": " كتاب الفتن عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 112
+            },
+            {
+                "id": 34,
+                "name": "Chapters On Dreams",
+                "arabic_name": " كتاب الرؤيا عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 25
+            },
+            {
+                "id": 35,
+                "name": "Chapters On Witnesses",
+                "arabic_name": " كتاب الشهادات عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 10
+            },
+            {
+                "id": 36,
+                "name": "Chapters On Zuhd",
+                "arabic_name": " كتاب الزهد عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 112
+            },
+            {
+                "id": 37,
+                "name": "Chapters on the description of the Day of Judgement, Ar-Riqaq, and Al-Wara'",
+                "arabic_name": " كتاب صفة القيامة والرقائق والورع عن رسول الله صلى الله",
+                "hadiths": 108
+            },
+            {
+                "id": 38,
+                "name": "Chapters on the description of Paradise",
+                "arabic_name": " كتاب صفة الجنة عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 50
+            },
+            {
+                "id": 39,
+                "name": "The Book on the Description of Hellfire",
+                "arabic_name": " كتاب صفة جهنم عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 33
+            },
+            {
+                "id": 40,
+                "name": "The Book on Faith",
+                "arabic_name": " كتاب الإيمان عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 39
+            },
+            {
+                "id": 41,
+                "name": "Chapters on Knowledge",
+                "arabic_name": " كتاب العلم عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 43
+            },
+            {
+                "id": 42,
+                "name": "Chapters on Seeking Permission",
+                "arabic_name": " كتاب الاستئذان والآداب عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 48
+            },
+            {
+                "id": 43,
+                "name": "Chapters on Manners",
+                "arabic_name": " كتاب الأدب عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 135
+            },
+            {
+                "id": 44,
+                "name": "Chapters on Parables",
+                "arabic_name": " كتاب الأمثال عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 17
+            },
+            {
+                "id": 45,
+                "name": "Chapters on The Virtues of the Qur'an",
+                "arabic_name": " كتاب ثواب القرآن عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 52
+            },
+            {
+                "id": 46,
+                "name": "Chapters on Recitation",
+                "arabic_name": " كتاب القراءات عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 23
+            },
+            {
+                "id": 47,
+                "name": "Chapters on Tafsir",
+                "arabic_name": "كتاب تفسير القرآن عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 421
+            },
+            {
+                "id": 48,
+                "name": "Chapters on Supplication",
+                "arabic_name": " كتاب الدعوات عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 244
+            },
+            {
+                "id": 49,
+                "name": "Chapters on Virtues",
+                "arabic_name": " كتاب المناقب عن رسول الله صلى الله عليه وسلم",
+                "hadiths": 356
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "collection": "ibnmajah",
+        "total": 38,
+        "page": 1,
+        "limit": 50,
+        "books": [{
+                "id": 1,
+                "name": "The Book of Purification and its Sunnah",
+                "arabic_name": "كتاب الطهارة وسننها ",
+                "hadiths": 400
+            },
+            {
+                "id": 0,
+                "name": "The Book of the Sunnah",
+                "arabic_name": "  كتاب المقدمة ",
+                "hadiths": 266
+            },
+            {
+                "id": 2,
+                "name": "The Book of the Prayer",
+                "arabic_name": " كتاب الصلاة ",
+                "hadiths": 39
+            },
+            {
+                "id": 3,
+                "name": "The Book of the Adhan and the Sunnah Regarding It",
+                "arabic_name": " كتاب الأذان والسنة فيها ",
+                "hadiths": 29
+            },
+            {
+                "id": 4,
+                "name": "The Book On The Mosques And The Congregations",
+                "arabic_name": " كتاب المساجد والجماعات ",
+                "hadiths": 68
+            },
+            {
+                "id": 5,
+                "name": "Establishing the Prayer and the Sunnah Regarding Them",
+                "arabic_name": " كتاب إقامة الصلاة والسنة فيها ",
+                "hadiths": 630
+            },
+            {
+                "id": 6,
+                "name": "Chapters Regarding Funerals",
+                "arabic_name": " كتاب الجنائز ",
+                "hadiths": 205
+            },
+            {
+                "id": 7,
+                "name": "Fasting",
+                "arabic_name": " كتاب الصيام ",
+                "hadiths": 145
+            },
+            {
+                "id": 8,
+                "name": "The Chapters Regarding Zakat",
+                "arabic_name": " كتاب الزكاة ",
+                "hadiths": 62
+            },
+            {
+                "id": 9,
+                "name": "The Chapters on Marriage",
+                "arabic_name": " كتاب النكاح ",
+                "hadiths": 171
+            },
+            {
+                "id": 10,
+                "name": "The Chapters on Divorce",
+                "arabic_name": " كتاب الطلاق ",
+                "hadiths": 74
+            },
+            {
+                "id": 11,
+                "name": "The Chapters on Expiation",
+                "arabic_name": " كتاب الكفارات ",
+                "hadiths": 47
+            },
+            {
+                "id": 12,
+                "name": "The Chapters on Business Transactions",
+                "arabic_name": " كتاب التجارات ",
+                "hadiths": 171
+            },
+            {
+                "id": 13,
+                "name": "The Chapters on Rulings",
+                "arabic_name": " كتاب الأحكام ",
+                "hadiths": 67
+            },
+            {
+                "id": 14,
+                "name": "The Chapters on Gifts",
+                "arabic_name": " كتاب الهبات ",
+                "hadiths": 15
+            },
+            {
+                "id": 15,
+                "name": "The Chapters on Charity",
+                "arabic_name": " كتاب الصدقات ",
+                "hadiths": 46
+            },
+            {
+                "id": 16,
+                "name": "The Chapters on Pawning",
+                "arabic_name": " كتاب الرهون ",
+                "hadiths": 57
+            },
+            {
+                "id": 17,
+                "name": "The Chapters on Pre-emption",
+                "arabic_name": " كتاب الشفعة ",
+                "hadiths": 11
+            },
+            {
+                "id": 18,
+                "name": "The Chapters on Lost Property",
+                "arabic_name": " كتاب اللقطة ",
+                "hadiths": 10
+            },
+            {
+                "id": 19,
+                "name": "The Chapters on Manumission (of Slaves)",
+                "arabic_name": " كتاب العتق ",
+                "hadiths": 21
+            },
+            {
+                "id": 20,
+                "name": "The Chapters on Legal Punishments",
+                "arabic_name": " كتاب الحدود ",
+                "hadiths": 82
+            },
+            {
+                "id": 21,
+                "name": "The Chapters on Blood Money",
+                "arabic_name": " كتاب الديات ",
+                "hadiths": 80
+            },
+            {
+                "id": 22,
+                "name": "The Chapters on Wills",
+                "arabic_name": " كتاب الوصايا ",
+                "hadiths": 24
+            },
+            {
+                "id": 23,
+                "name": "Chapters on Shares of Inheritance",
+                "arabic_name": " كتاب الفرائض ",
+                "hadiths": 34
+            },
+            {
+                "id": 24,
+                "name": "The Chapters on Jihad",
+                "arabic_name": " كتاب الجهاد ",
+                "hadiths": 129
+            },
+            {
+                "id": 25,
+                "name": "Chapters on <i>Hajj</i> Rituals",
+                "arabic_name": " كتاب المناسك ",
+                "hadiths": 238
+            },
+            {
+                "id": 26,
+                "name": "Chapters on Sacrifices",
+                "arabic_name": " كتاب الأضاحي ",
+                "hadiths": 42
+            },
+            {
+                "id": 27,
+                "name": "Chapters on Slaughtering",
+                "arabic_name": " كتاب الذبائح ",
+                "hadiths": 38
+            },
+            {
+                "id": 28,
+                "name": "Chapters on Hunting",
+                "arabic_name": " كتاب الصيد ",
+                "hadiths": 51
+            },
+            {
+                "id": 29,
+                "name": " Chapters on Food",
+                "arabic_name": " كتاب الأطعمة ",
+                "hadiths": 120
+            },
+            {
+                "id": 30,
+                "name": "Chapters on Drinks",
+                "arabic_name": " كتاب الأشربة ",
+                "hadiths": 65
+            },
+            {
+                "id": 31,
+                "name": "Chapters on Medicine",
+                "arabic_name": " كتاب الطب ",
+                "hadiths": 114
+            },
+            {
+                "id": 32,
+                "name": "Chapters on Dress",
+                "arabic_name": " كتاب اللباس ",
+                "hadiths": 107
+            },
+            {
+                "id": 33,
+                "name": "Etiquette",
+                "arabic_name": " كتاب الأدب ",
+                "hadiths": 170
+            },
+            {
+                "id": 34,
+                "name": "Supplication",
+                "arabic_name": " كتاب الدعاء ",
+                "hadiths": 66
+            },
+            {
+                "id": 35,
+                "name": "Interpretation of Dreams",
+                "arabic_name": " كتاب تعبير الرؤيا ",
+                "hadiths": 34
+            },
+            {
+                "id": 36,
+                "name": "Tribulations",
+                "arabic_name": " كتاب الفتن ",
+                "hadiths": 175
+            },
+            {
+                "id": 37,
+                "name": "Zuhd",
+                "arabic_name": " كتاب الزهد",
+                "hadiths": 242
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "collection": "muslim",
+        "total": 57,
+        "page": 1,
+        "limit": 50,
+        "books": [{
+                "id": 1,
+                "name": "The Book of Faith",
+                "arabic_name": "كتاب الإيمان",
+                "hadiths": 439
+            },
+            {
+                "id": 2,
+                "name": "The Book of Purification",
+                "arabic_name": " كتاب الطهارة",
+                "hadiths": 144
+            },
+            {
+                "id": 3,
+                "name": "The Book of Menstruation",
+                "arabic_name": " كتاب الحيض",
+                "hadiths": 157
+            },
+            {
+                "id": 4,
+                "name": "The Book of Prayers ",
+                "arabic_name": " كتاب الصلاة",
+                "hadiths": 322
+            },
+            {
+                "id": 5,
+                "name": "The Book of Mosques and Places of Prayer",
+                "arabic_name": " كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+                "hadiths": 402
+            },
+            {
+                "id": 6,
+                "name": "The Book of Prayer - Travellers",
+                "arabic_name": " كتاب صلاة المسافرين وقصرها",
+                "hadiths": 378
+            },
+            {
+                "id": 7,
+                "name": "The Book of Prayer - Friday",
+                "arabic_name": " كتاب الجمعة",
+                "hadiths": 93
+            },
+            {
+                "id": 8,
+                "name": "The Book of Prayer - Two Eids",
+                "arabic_name": " كتاب صلاة العيدين",
+                "hadiths": 24
+            },
+            {
+                "id": 9,
+                "name": "The Book of Prayer - Rain",
+                "arabic_name": " كتاب صلاة الاستسقاء‏",
+                "hadiths": 19
+            },
+            {
+                "id": 10,
+                "name": "The Book of Prayer - Eclipses",
+                "arabic_name": " كتاب الكسوف",
+                "hadiths": 31
+            },
+            {
+                "id": 11,
+                "name": "The Book of Prayer - Funerals",
+                "arabic_name": " كتاب الجنائز",
+                "hadiths": 138
+            },
+            {
+                "id": 12,
+                "name": "The Book of Zakat",
+                "arabic_name": " كتاب الزكاة",
+                "hadiths": 231
+            },
+            {
+                "id": 13,
+                "name": "The Book of Fasting ",
+                "arabic_name": " كتاب الصيام",
+                "hadiths": 285
+            },
+            {
+                "id": 14,
+                "name": "The Book of I'tikaf",
+                "arabic_name": " كتاب الاعتكاف",
+                "hadiths": 11
+            },
+            {
+                "id": 15,
+                "name": "The Book of Pilgrimage",
+                "arabic_name": " كتاب الحج",
+                "hadiths": 601
+            },
+            {
+                "id": 16,
+                "name": "The Book of Marriage",
+                "arabic_name": "كتاب النكاح",
+                "hadiths": 169
+            },
+            {
+                "id": 17,
+                "name": "The Book of Suckling",
+                "arabic_name": " كتاب الرضاع",
+                "hadiths": 84
+            },
+            {
+                "id": 18,
+                "name": "The Book of Divorce ",
+                "arabic_name": " كتاب الطلاق",
+                "hadiths": 87
+            },
+            {
+                "id": 19,
+                "name": "The Book of Invoking Curses",
+                "arabic_name": " كتاب اللعان",
+                "hadiths": 27
+            },
+            {
+                "id": 20,
+                "name": "The Book of Emancipating Slaves",
+                "arabic_name": "كتاب العتق",
+                "hadiths": 30
+            },
+            {
+                "id": 21,
+                "name": "The Book of Transactions",
+                "arabic_name": " كتاب البيوع",
+                "hadiths": 160
+            },
+            {
+                "id": 22,
+                "name": "The Book of Musaqah",
+                "arabic_name": " كتاب المساقاة",
+                "hadiths": 178
+            },
+            {
+                "id": 23,
+                "name": "The Book of the Rules of Inheritance",
+                "arabic_name": " كتاب الفرائض",
+                "hadiths": 23
+            },
+            {
+                "id": 24,
+                "name": "The Book of Gifts",
+                "arabic_name": " كتاب الهبات",
+                "hadiths": 41
+            },
+            {
+                "id": 25,
+                "name": "The Book of Wills",
+                "arabic_name": " كتاب الوصية",
+                "hadiths": 31
+            },
+            {
+                "id": 26,
+                "name": "The Book of Vows",
+                "arabic_name": " كتاب النذر",
+                "hadiths": 18
+            },
+            {
+                "id": 27,
+                "name": "The Book of Oaths",
+                "arabic_name": " كتاب الأيمان",
+                "hadiths": 88
+            },
+            {
+                "id": 28,
+                "name": "The Book of Oaths, <i>Muharibin</i>, <i>Qasas</i> (Retaliation), and <i>Diyat</i> (Blood Money)",
+                "arabic_name": " كتاب القسامة والمحاربين والقصاص والديات",
+                "hadiths": 56
+            },
+            {
+                "id": 29,
+                "name": "The Book of Legal Punishments",
+                "arabic_name": " كتاب الحدود",
+                "hadiths": 72
+            },
+            {
+                "id": 30,
+                "name": "The Book of Judicial Decisions",
+                "arabic_name": " كتاب الأقضية",
+                "hadiths": 28
+            },
+            {
+                "id": 31,
+                "name": "The Book of Lost Property",
+                "arabic_name": " كتاب اللقطة",
+                "hadiths": 20
+            },
+            {
+                "id": 32,
+                "name": "The Book of <i>Jihad</i> and Expeditions",
+                "arabic_name": " كتاب الجهاد والسير",
+                "hadiths": 182
+            },
+            {
+                "id": 33,
+                "name": "The Book on Government",
+                "arabic_name": " كتاب الإمارة",
+                "hadiths": 266
+            },
+            {
+                "id": 34,
+                "name": "The Book of Hunting, Slaughter, and what may be Eaten",
+                "arabic_name": " كتاب الصيد والذبائح وما يؤكل من الحيوان",
+                "hadiths": 92
+            },
+            {
+                "id": 35,
+                "name": "The Book of Sacrifices",
+                "arabic_name": " كتاب الأضاحى",
+                "hadiths": 62
+            },
+            {
+                "id": 36,
+                "name": "The Book of Drinks",
+                "arabic_name": " كتاب الأشربة",
+                "hadiths": 257
+            },
+            {
+                "id": 37,
+                "name": "The Book of Clothes and Adornment",
+                "arabic_name": " كتاب اللباس والزينة",
+                "hadiths": 193
+            },
+            {
+                "id": 38,
+                "name": "The Book of Manners and Etiquette",
+                "arabic_name": " كتاب الآداب",
+                "hadiths": 60
+            },
+            {
+                "id": 39,
+                "name": "The Book of Greetings",
+                "arabic_name": " كتاب السلام",
+                "hadiths": 212
+            },
+            {
+                "id": 40,
+                "name": "The Book Concerning the Use of Correct Words",
+                "arabic_name": " كتاب الألفاظ من الأدب وغيرها",
+                "hadiths": 23
+            },
+            {
+                "id": 41,
+                "name": "The Book of Poetry",
+                "arabic_name": " كتاب الشعر",
+                "hadiths": 11
+            },
+            {
+                "id": 42,
+                "name": "The Book of Dreams",
+                "arabic_name": " كتاب الرؤيا",
+                "hadiths": 41
+            },
+            {
+                "id": 43,
+                "name": "The Book of Virtues",
+                "arabic_name": " كتاب الفضائل",
+                "hadiths": 226
+            },
+            {
+                "id": 44,
+                "name": "The Book of the Merits of the Companions",
+                "arabic_name": " كتاب فضائل الصحابة رضى الله تعالى عنهم",
+                "hadiths": 328
+            },
+            {
+                "id": 45,
+                "name": "The Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship",
+                "arabic_name": " كتاب البر والصلة والآداب",
+                "hadiths": 217
+            },
+            {
+                "id": 46,
+                "name": "The Book of Destiny",
+                "arabic_name": " كتاب القدر",
+                "hadiths": 52
+            },
+            {
+                "id": 47,
+                "name": "The Book of Knowledge",
+                "arabic_name": " كتاب العلم",
+                "hadiths": 30
+            },
+            {
+                "id": 48,
+                "name": "The Book Pertaining to the Remembrance of Allah, Supplication, Repentance and Seeking Forgiveness ",
+                "arabic_name": " كتاب الذكر والدعاء والتوبة والاستغفار",
+                "hadiths": 127
+            },
+            {
+                "id": 49,
+                "name": "The Book of Heart-Melting Traditions",
+                "arabic_name": " كتاب الرقاق",
+                "hadiths": 15
+            }
+        ]
+    }
+]

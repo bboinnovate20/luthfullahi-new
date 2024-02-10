@@ -1,0 +1,571 @@
+[{
+        "surahId": 1,
+        "surahTransliteration": "Al-Fatihah",
+        "surahMeaning": "The Opener"
+    },
+    {
+        "surahId": 2,
+        "surahTransliteration": "Al-Baqarah",
+        "surahMeaning": "The Cow"
+    },
+    {
+        "surahId": 3,
+        "surahTransliteration": "Ali 'Imran",
+        "surahMeaning": "Family of Imran"
+    },
+    {
+        "surahId": 4,
+        "surahTransliteration": "An-Nisa",
+        "surahMeaning": "The Women"
+    },
+    {
+        "surahId": 5,
+        "surahTransliteration": "Al-Ma'idah",
+        "surahMeaning": "The Table Spread"
+    },
+    {
+        "surahId": 6,
+        "surahTransliteration": "Al-An'am",
+        "surahMeaning": "The Cattle"
+    },
+    {
+        "surahId": 7,
+        "surahTransliteration": "Al-A'raf",
+        "surahMeaning": "The Heights"
+    },
+    {
+        "surahId": 8,
+        "surahTransliteration": "Al-Anfal",
+        "surahMeaning": "The Spoils of War"
+    },
+    {
+        "surahId": 9,
+        "surahTransliteration": "At-Tawbah",
+        "surahMeaning": "The Repentance"
+    },
+    {
+        "surahId": 10,
+        "surahTransliteration": "Yunus",
+        "surahMeaning": "Jonah"
+    },
+    {
+        "surahId": 11,
+        "surahTransliteration": "Hud",
+        "surahMeaning": "Hud"
+    },
+    {
+        "surahId": 12,
+        "surahTransliteration": "Yusuf",
+        "surahMeaning": "Joseph"
+    },
+    {
+        "surahId": 13,
+        "surahTransliteration": "Ar-Ra'd",
+        "surahMeaning": "The Thunder"
+    },
+    {
+        "surahId": 14,
+        "surahTransliteration": "Ibrahim",
+        "surahMeaning": "Abraham"
+    },
+    {
+        "surahId": 15,
+        "surahTransliteration": "Al-Hijr",
+        "surahMeaning": "The Rocky Tract"
+    },
+    {
+        "surahId": 16,
+        "surahTransliteration": "An-Nahl",
+        "surahMeaning": "The Bee"
+    },
+    {
+        "surahId": 17,
+        "surahTransliteration": "Al-Isra",
+        "surahMeaning": "The Night Journey"
+    },
+    {
+        "surahId": 18,
+        "surahTransliteration": "Al-Kahf",
+        "surahMeaning": "The Cave"
+    },
+    {
+        "surahId": 19,
+        "surahTransliteration": "Maryam",
+        "surahMeaning": "Mary"
+    },
+    {
+        "surahId": 20,
+        "surahTransliteration": "Taha",
+        "surahMeaning": "Ta-Ha"
+    },
+    {
+        "surahId": 21,
+        "surahTransliteration": "Al-Anbya",
+        "surahMeaning": "The Prophets"
+    },
+    {
+        "surahId": 22,
+        "surahTransliteration": "Al-Hajj",
+        "surahMeaning": "The Pilgrimage"
+    },
+    {
+        "surahId": 23,
+        "surahTransliteration": "Al-Mu'minun",
+        "surahMeaning": "The Believers"
+    },
+    {
+        "surahId": 24,
+        "surahTransliteration": "An-Nur",
+        "surahMeaning": "The Light"
+    },
+    {
+        "surahId": 25,
+        "surahTransliteration": "Al-Furqan",
+        "surahMeaning": "The Criterion"
+    },
+    {
+        "surahId": 26,
+        "surahTransliteration": "Ash-Shu'ara",
+        "surahMeaning": "The Poets"
+    },
+    {
+        "surahId": 27,
+        "surahTransliteration": "An-Naml",
+        "surahMeaning": "The Ant"
+    },
+    {
+        "surahId": 28,
+        "surahTransliteration": "Al-Qasas",
+        "surahMeaning": "The Stories"
+    },
+    {
+        "surahId": 29,
+        "surahTransliteration": "Al-'Ankabut",
+        "surahMeaning": "The Spider"
+    },
+    {
+        "surahId": 30,
+        "surahTransliteration": "Ar-Rum",
+        "surahMeaning": "The Romans"
+    },
+    {
+        "surahId": 31,
+        "surahTransliteration": "Luqman",
+        "surahMeaning": "Luqman"
+    },
+    {
+        "surahId": 32,
+        "surahTransliteration": "As-Sajdah",
+        "surahMeaning": "The Prostration"
+    },
+    {
+        "surahId": 33,
+        "surahTransliteration": "Al-Ahzab",
+        "surahMeaning": "The Combined Forces"
+    },
+    {
+        "surahId": 34,
+        "surahTransliteration": "Saba",
+        "surahMeaning": "Sheba"
+    },
+    {
+        "surahId": 35,
+        "surahTransliteration": "Fatir",
+        "surahMeaning": "Originator"
+    },
+    {
+        "surahId": 36,
+        "surahTransliteration": "Ya-Sin",
+        "surahMeaning": "Ya Sin"
+    },
+    {
+        "surahId": 37,
+        "surahTransliteration": "As-Saffat",
+        "surahMeaning": "Those who set the Ranks"
+    },
+    {
+        "surahId": 38,
+        "surahTransliteration": "Sad",
+        "surahMeaning": "The Letter \"Saad\""
+    },
+    {
+        "surahId": 39,
+        "surahTransliteration": "Az-Zumar",
+        "surahMeaning": "The Troops"
+    },
+    {
+        "surahId": 40,
+        "surahTransliteration": "Ghafir",
+        "surahMeaning": "The Forgiver"
+    },
+    {
+        "surahId": 41,
+        "surahTransliteration": "Fussilat",
+        "surahMeaning": "Explained in Detail"
+    },
+    {
+        "surahId": 42,
+        "surahTransliteration": "Ash-Shuraa",
+        "surahMeaning": "The Consultation"
+    },
+    {
+        "surahId": 43,
+        "surahTransliteration": "Az-Zukhruf",
+        "surahMeaning": "The Ornaments of Gold"
+    },
+    {
+        "surahId": 44,
+        "surahTransliteration": "Ad-Dukhan",
+        "surahMeaning": "The Smoke"
+    },
+    {
+        "surahId": 45,
+        "surahTransliteration": "Al-Jathiyah",
+        "surahMeaning": "The Crouching"
+    },
+    {
+        "surahId": 46,
+        "surahTransliteration": "Al-Ahqaf",
+        "surahMeaning": "The Wind-Curved Sandhills"
+    },
+    {
+        "surahId": 47,
+        "surahTransliteration": "Muhammad",
+        "surahMeaning": "Muhammad"
+    },
+    {
+        "surahId": 48,
+        "surahTransliteration": "Al-Fath",
+        "surahMeaning": "The Victory"
+    },
+    {
+        "surahId": 49,
+        "surahTransliteration": "Al-Hujurat",
+        "surahMeaning": "The Rooms"
+    },
+    {
+        "surahId": 50,
+        "surahTransliteration": "Qaf",
+        "surahMeaning": "The Letter \"Qaf\""
+    },
+    {
+        "surahId": 51,
+        "surahTransliteration": "Adh-Dhariyat",
+        "surahMeaning": "The Winnowing Winds"
+    },
+    {
+        "surahId": 52,
+        "surahTransliteration": "At-Tur",
+        "surahMeaning": "The Mount"
+    },
+    {
+        "surahId": 53,
+        "surahTransliteration": "An-Najm",
+        "surahMeaning": "The Star"
+    },
+    {
+        "surahId": 54,
+        "surahTransliteration": "Al-Qamar",
+        "surahMeaning": "The Moon"
+    },
+    {
+        "surahId": 55,
+        "surahTransliteration": "Ar-Rahman",
+        "surahMeaning": "The Beneficent"
+    },
+    {
+        "surahId": 56,
+        "surahTransliteration": "Al-Waqi'ah",
+        "surahMeaning": "The Inevitable"
+    },
+    {
+        "surahId": 57,
+        "surahTransliteration": "Al-Hadid",
+        "surahMeaning": "The Iron"
+    },
+    {
+        "surahId": 58,
+        "surahTransliteration": "Al-Mujadila",
+        "surahMeaning": "The Pleading Woman"
+    },
+    {
+        "surahId": 59,
+        "surahTransliteration": "Al-Hashr",
+        "surahMeaning": "The Exile"
+    },
+    {
+        "surahId": 60,
+        "surahTransliteration": "Al-Mumtahanah",
+        "surahMeaning": "She that is to be examined"
+    },
+    {
+        "surahId": 61,
+        "surahTransliteration": "As-Saf",
+        "surahMeaning": "The Ranks"
+    },
+    {
+        "surahId": 62,
+        "surahTransliteration": "Al-Jumu'ah",
+        "surahMeaning": "The Congregation, Friday"
+    },
+    {
+        "surahId": 63,
+        "surahTransliteration": "Al-Munafiqun",
+        "surahMeaning": "The Hypocrites"
+    },
+    {
+        "surahId": 64,
+        "surahTransliteration": "At-Taghabun",
+        "surahMeaning": "The Mutual Disillusion"
+    },
+    {
+        "surahId": 65,
+        "surahTransliteration": "At-Talaq",
+        "surahMeaning": "The Divorce"
+    },
+    {
+        "surahId": 66,
+        "surahTransliteration": "At-Tahrim",
+        "surahMeaning": "The Prohibition"
+    },
+    {
+        "surahId": 67,
+        "surahTransliteration": "Al-Mulk",
+        "surahMeaning": "The Sovereignty"
+    },
+    {
+        "surahId": 68,
+        "surahTransliteration": "Al-Qalam",
+        "surahMeaning": "The Pen"
+    },
+    {
+        "surahId": 69,
+        "surahTransliteration": "Al-Haqqah",
+        "surahMeaning": "The Reality"
+    },
+    {
+        "surahId": 70,
+        "surahTransliteration": "Al-Ma'arij",
+        "surahMeaning": "The Ascending Stairways"
+    },
+    {
+        "surahId": 71,
+        "surahTransliteration": "Nuh",
+        "surahMeaning": "Noah"
+    },
+    {
+        "surahId": 72,
+        "surahTransliteration": "Al-Jinn",
+        "surahMeaning": "The Jinn"
+    },
+    {
+        "surahId": 73,
+        "surahTransliteration": "Al-Muzzammil",
+        "surahMeaning": "The Enshrouded One"
+    },
+    {
+        "surahId": 74,
+        "surahTransliteration": "Al-Muddaththir",
+        "surahMeaning": "The Cloaked One"
+    },
+    {
+        "surahId": 75,
+        "surahTransliteration": "Al-Qiyamah",
+        "surahMeaning": "The Resurrection"
+    },
+    {
+        "surahId": 76,
+        "surahTransliteration": "Al-Insan",
+        "surahMeaning": "The Man"
+    },
+    {
+        "surahId": 77,
+        "surahTransliteration": "Al-Mursalat",
+        "surahMeaning": "The Emissaries"
+    },
+    {
+        "surahId": 78,
+        "surahTransliteration": "An-Naba",
+        "surahMeaning": "The Tidings"
+    },
+    {
+        "surahId": 79,
+        "surahTransliteration": "An-Nazi'at",
+        "surahMeaning": "Those who drag forth"
+    },
+    {
+        "surahId": 80,
+        "surahTransliteration": "'Abasa",
+        "surahMeaning": "He Frowned"
+    },
+    {
+        "surahId": 81,
+        "surahTransliteration": "At-Takwir",
+        "surahMeaning": "The Overthrowing"
+    },
+    {
+        "surahId": 82,
+        "surahTransliteration": "Al-Infitar",
+        "surahMeaning": "The Cleaving"
+    },
+    {
+        "surahId": 83,
+        "surahTransliteration": "Al-Mutaffifin",
+        "surahMeaning": "The Defrauding"
+    },
+    {
+        "surahId": 84,
+        "surahTransliteration": "Al-Inshiqaq",
+        "surahMeaning": "The Sundering"
+    },
+    {
+        "surahId": 85,
+        "surahTransliteration": "Al-Buruj",
+        "surahMeaning": "The Mansions of the Stars"
+    },
+    {
+        "surahId": 86,
+        "surahTransliteration": "At-Tariq",
+        "surahMeaning": "The Nightcommer"
+    },
+    {
+        "surahId": 87,
+        "surahTransliteration": "Al-A'la",
+        "surahMeaning": "The Most High"
+    },
+    {
+        "surahId": 88,
+        "surahTransliteration": "Al-Ghashiyah",
+        "surahMeaning": "The Overwhelming"
+    },
+    {
+        "surahId": 89,
+        "surahTransliteration": "Al-Fajr",
+        "surahMeaning": "The Dawn"
+    },
+    {
+        "surahId": 90,
+        "surahTransliteration": "Al-Balad",
+        "surahMeaning": "The City"
+    },
+    {
+        "surahId": 91,
+        "surahTransliteration": "Ash-Shams",
+        "surahMeaning": "The Sun"
+    },
+    {
+        "surahId": 92,
+        "surahTransliteration": "Al-Layl",
+        "surahMeaning": "The Night"
+    },
+    {
+        "surahId": 93,
+        "surahTransliteration": "Ad-Duhaa",
+        "surahMeaning": "The Morning Hours"
+    },
+    {
+        "surahId": 94,
+        "surahTransliteration": "Ash-Sharh",
+        "surahMeaning": "The Relief"
+    },
+    {
+        "surahId": 95,
+        "surahTransliteration": "At-Tin",
+        "surahMeaning": "The Fig"
+    },
+    {
+        "surahId": 96,
+        "surahTransliteration": "Al-'Alaq",
+        "surahMeaning": "The Clot"
+    },
+    {
+        "surahId": 97,
+        "surahTransliteration": "Al-Qadr",
+        "surahMeaning": "The Power"
+    },
+    {
+        "surahId": 98,
+        "surahTransliteration": "Al-Bayyinah",
+        "surahMeaning": "The Clear Proof"
+    },
+    {
+        "surahId": 99,
+        "surahTransliteration": "Az-Zalzalah",
+        "surahMeaning": "The Earthquake"
+    },
+    {
+        "surahId": 100,
+        "surahTransliteration": "Al-'Adiyat",
+        "surahMeaning": "The Courser"
+    },
+    {
+        "surahId": 101,
+        "surahTransliteration": "Al-Qari'ah",
+        "surahMeaning": "The Calamity"
+    },
+    {
+        "surahId": 102,
+        "surahTransliteration": "At-Takathur",
+        "surahMeaning": "The Rivalry in world increase"
+    },
+    {
+        "surahId": 103,
+        "surahTransliteration": "Al-'Asr",
+        "surahMeaning": "The Declining Day"
+    },
+    {
+        "surahId": 104,
+        "surahTransliteration": "Al-Humazah",
+        "surahMeaning": "The Traducer"
+    },
+    {
+        "surahId": 105,
+        "surahTransliteration": "Al-Fil",
+        "surahMeaning": "The Elephant"
+    },
+    {
+        "surahId": 106,
+        "surahTransliteration": "Quraysh",
+        "surahMeaning": "Quraysh"
+    },
+    {
+        "surahId": 107,
+        "surahTransliteration": "Al-Ma'un",
+        "surahMeaning": "The Small kindnesses"
+    },
+    {
+        "surahId": 108,
+        "surahTransliteration": "Al-Kawthar",
+        "surahMeaning": "The Abundance"
+    },
+    {
+        "surahId": 109,
+        "surahTransliteration": "Al-Kafirun",
+        "surahMeaning": "The Disbelievers"
+    },
+    {
+        "surahId": 110,
+        "surahTransliteration": "An-Nasr",
+        "surahMeaning": "The Divine Support"
+    },
+    {
+        "surahId": 111,
+        "surahTransliteration": "Al-Masad",
+        "surahMeaning": "The Palm Fiber"
+    },
+    {
+        "surahId": 112,
+        "surahTransliteration": "Al-Ikhlas",
+        "surahMeaning": "The Sincerity"
+    },
+    {
+        "surahId": 113,
+        "surahTransliteration": "Al-Falaq",
+        "surahMeaning": "The Daybreak"
+    },
+    {
+        "surahId": 114,
+        "surahTransliteration": "An-Nas",
+        "surahMeaning": "Mankind"
+    }
+]
