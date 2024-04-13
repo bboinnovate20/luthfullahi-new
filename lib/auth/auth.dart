@@ -1,8 +1,10 @@
 import 'dart:io';
 
+import 'package:babaloworo/firebase_options.dart';
 import 'package:babaloworo/main.dart';
 import 'package:babaloworo/shared/navigation.dart';
 import 'package:babaloworo/shared/primary_btn.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
@@ -27,7 +29,8 @@ class _FirstTimeAuthState extends ConsumerState<FirstTimeAuth> {
     final authState = ref.watch(userStateAuth);
     return authState.when(
         loading: () => const Scaffold(body: Center(child: Text("Loading"))),
-        error: (_, error) => const Scaffold(body: Center(child: Text("Error"))),
+        error: (_, error) {
+          return const Scaffold(body: Center(child: Text("Error")));},
         data: (data) {
           if (data != null) {
             if (widget.isWithBackButton) {

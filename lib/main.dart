@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:math';
 
 import 'package:babaloworo/auth/auth_util.dart';
 import 'package:babaloworo/dashboard/dashboard.dart';
@@ -30,14 +31,33 @@ final loadingProvider = Provider<LoadingNotifier>((ref) => LoadingNotifier());
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+try {
   await Firebase.initializeApp(
-    // name: "luthfullahi-new",
+    name: "luthfullahi",
     options: DefaultFirebaseOptions.currentPlatform,
   );
+} on Exception catch (e) {
+  // TODO
+}
+
 
   runApp(const ProviderScope(child: MyApp()));
 }
 
+class Error extends StatelessWidget {
+  const Error({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'Babaloworo App',
+        theme: theme,
+        home: const Scaffold(body: Center(child: Text("Hello this is the error $e"))));
+        
+  }
+}
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 

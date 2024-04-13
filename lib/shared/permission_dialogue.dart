@@ -2,12 +2,13 @@
 import 'package:babaloworo/shared/location_util.dart';
 import 'package:babaloworo/shared/secured_storage_util.dart';
 import 'package:flutter/material.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 
 
 
 
-Future? showPermissionDialog(BuildContext context, String message, IconData icon) async {
+Future? showPermissionDialog(BuildContext context, String readStatus, String message, IconData icon) async {
 
 
 
@@ -54,15 +55,13 @@ Future? showPermissionDialog(BuildContext context, String message, IconData icon
                 children: <Widget>[
                   TextButton(           
                     style: TextButton.styleFrom(
-                      foregroundColor: Colors.black,
+                      foregroundColor: Colors.white,
                       padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 20),
-                     backgroundColor: Colors.black26,
-                     surfaceTintColor: Colors.black26,
+                     backgroundColor: Colors.red,
+                     surfaceTintColor: Colors.red,
                     ) ,
-                    child: const Text('Reject'),
+                    child: const Text('Exit'),
                     onPressed: ()  {
-                      
-                      
                       Navigator.of(context).pop(false);
                     },
                   ),
@@ -74,11 +73,13 @@ Future? showPermissionDialog(BuildContext context, String message, IconData icon
                        backgroundColor: Theme.of(context).colorScheme.primary,
                        surfaceTintColor: Colors.black,
                     ) ,
-                    child: const Text('Accept'),
+                    child: const Text('Continue'),
                     onPressed: () async {
                         final util = LocationUtil();
                         final permission = await util.askPermission();
-                        print("accept $permission");
+                        if(readStatus == "false") {
+                          openAppSettings();
+                        }
                        // ignore: use_build_context_synchronously
                        Navigator.of(context).pop(permission);
                     },

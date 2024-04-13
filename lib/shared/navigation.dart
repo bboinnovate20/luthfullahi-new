@@ -1,6 +1,7 @@
 import 'package:babaloworo/calendar/calendar.dart';
 import 'package:babaloworo/chat/chat.dart';
 import 'package:babaloworo/dashboard/dashboard.dart';
+import 'package:babaloworo/dashboard/main_donation.dart';
 import 'package:babaloworo/dua/dua_widget.dart';
 import 'package:babaloworo/fiqh/fiqh_widget.dart';
 import 'package:babaloworo/hadith/hadith_widget.dart';
@@ -73,4 +74,7 @@ class NavigatorNamed {
   static LuthfullahiList luthfullahi = const LuthfullahiList();
   static LuthfullahiMain luthfullahiMain({id = 1}) =>
       LuthfullahiMain(initialIndex: id);
+
+  //donation
+  static MainDonation donation = const MainDonation();
 }

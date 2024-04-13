@@ -31,6 +31,13 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   isFirstTime() async {
+      try {
+    await Firebase.initializeApp(
+      // name: "luthfullahi",
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } catch (e) {
+  }
     try {
       final storage = SecuredStorage();
       final firstTime = await storage.readData(key: "first_time");

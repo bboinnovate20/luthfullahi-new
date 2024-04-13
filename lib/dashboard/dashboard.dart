@@ -53,19 +53,21 @@ class _DashboardState extends ConsumerState<Dashboard> {
     final locationStatus = await getLocationPermission();
     if(locationStatus) {
         setState(() => permission = true);
-      }
-      await notification.scheduleNotification();
+        await notification.scheduleNotification();
+    }
  
   }
 
   getLocationPermission() async {
     final storage = SecuredStorage();
     final readStatus = await storage.readData(key: "location");
-
     if (readStatus == null || readStatus == "false") {
       await storage.writeData("location", "true");
+      print("write data");
+      print(readStatus.toString());
       // ignore: use_build_context_synchronously
-      final askPermission = await showPermissionDialog(context, "This app needs your location to get the best experience for Qibla and Adhan prayer times accuracy. Do you want to turn on your location?", Icons.location_on);
+      final askPermission = await showPermissionDialog(context, readStatus.toString(),  "This app needs your location for accurate Qibla location and Adhan prayer time, did you wish to continue?", Icons.location_on);
+      print("askPermission");
       await storage.writeData("location", askPermission.toString());
       return askPermission;
     }
@@ -654,45 +656,49 @@ class DonationBanner extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        margin: const EdgeInsets.only(top: 5),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10),
-          gradient: const LinearGradient(
-              begin: Alignment.centerRight,
-              end: Alignment.centerLeft,
-              colors: [Color(0xFFFFBF0B), Color(0xFFFFF500)]),
-        ),
-        child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 12),
-          child: Row(
-            textDirection: TextDirection.ltr,
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Column(
-                textDirection: TextDirection.ltr,
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const Padding(
-                    padding: EdgeInsets.only(bottom: 10),
-                    child: Text(
-                      "Ongoing Project Donation",
-                      style: TextStyle(fontWeight: FontWeight.bold),
-                    ),
-                  ),
-                  Text(
-                    "Project Donation 2024",
-                    style: Theme.of(context).textTheme.displayLarge,
-                  ),
-                  const Text("Luthfullahi Society of Nigeria")
-                ],
-              ),
-              Image.asset("assets/images/donation_illustrator.png",
-                  width: 80, height: 80)
-            ],
+    return GestureDetector(
+      onTap: () => PersistentNavBarNavigator.pushNewScreen(context,
+                      screen: NavigatorNamed.donation, withNavBar: false),
+      child: Container(
+          margin: const EdgeInsets.only(top: 5),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(10),
+            gradient: const LinearGradient(
+                begin: Alignment.centerRight,
+                end: Alignment.centerLeft,
+                colors: [Color(0xFFFFBF0B), Color(0xFFFFF500)]),
           ),
-        ));
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 12),
+            child: Row(
+              textDirection: TextDirection.ltr,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Column(
+                  textDirection: TextDirection.ltr,
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Padding(
+                      padding: EdgeInsets.only(bottom: 10),
+                      child: Text(
+                        "Ongoing Project Donation",
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                    Text(
+                      "Project Donation 2024",
+                      style: Theme.of(context).textTheme.displayLarge,
+                    ),
+                    const Text("Luthfullahi Society of Nigeria")
+                  ],
+                ),
+                Image.asset("assets/images/donation_illustrator.png",
+                    width: 80, height: 80)
+              ],
+            ),
+          )),
+    );
   }
 }
 

@@ -10,10 +10,12 @@ class ListCard extends StatelessWidget {
   final String subtitle;
   final FontWeight fontWeight;
   final bool? isAction;
+  final Color color;
   const ListCard(
       {super.key,
       required this.title,
       required this.action,
+      this.color = Colors.black,
       this.isAction = true,
       this.fontWeight = FontWeight.w500,
       this.subtitle = "",
@@ -89,6 +91,7 @@ class ListCard extends StatelessWidget {
                                 style: TextStyle(
                                   fontWeight: fontWeight,
                                   fontSize: 16,
+                                  color: color
                                 ),
                               ),
                               subtitle.isNotEmpty

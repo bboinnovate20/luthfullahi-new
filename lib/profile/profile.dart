@@ -1,6 +1,7 @@
 import 'package:babaloworo/admin_notification/admin_notification.dart';
 import 'package:babaloworo/auth/auth_util.dart';
 import 'package:babaloworo/main.dart';
+import 'package:babaloworo/profile/account_deletion.dart';
 import 'package:babaloworo/shared/list_card.dart';
 import 'package:babaloworo/shared/navigation.dart';
 import 'package:babaloworo/shared/primary_btn.dart';
@@ -72,73 +73,79 @@ class AuthenticatedProfile extends ConsumerWidget {
                       child: Padding(
                         padding: const EdgeInsets.symmetric(
                             horizontal: 12.0, vertical: 30),
-                        child: Column(
-                          children: [
-                            Column(
-                              children: [
-                                Text(
-                                  user?.displayName ?? "",
-                                  style:
-                                      Theme.of(context).textTheme.titleMedium,
-                                ),
-                                const Text(
-                                  "MEMBER",
-                                  style: TextStyle(color: Colors.black54),
-                                )
-                              ],
-                            ),
-                            const Padding(
-                              padding: EdgeInsets.symmetric(vertical: 14.0),
-                              child: Text(
-                                  textAlign: TextAlign.center,
-                                  "Jazakummullahi Khairan for your utmost support "),
-                            ),
-                            if (user != null)
-                              ListCard(
-                                title: "View Identity Card",
-                                action: () =>
-                                    PersistentNavBarNavigator.pushNewScreen(
-                                        context,
-                                        screen: NavigatorNamed.idCardView(
-                                            name: user.displayName ?? ""),
-                                        withNavBar: false),
-                                bgColor: Theme.of(context).colorScheme.primary,
+                        child: SingleChildScrollView(
+                          child: Column(
+                            children: [
+                              Column(
+                                children: [
+                                  Text(
+                                    user?.displayName ?? "",
+                                    style:
+                                        Theme.of(context).textTheme.titleMedium,
+                                  ),
+                                  const Text(
+                                    "MEMBER",
+                                    style: TextStyle(color: Colors.black54),
+                                  )
+                                ],
                               ),
-                            if (snapshot.data == true)
-                              ListCard(
-                                title: "Post for Notification",
-                                action: () =>
-                                    PersistentNavBarNavigator.pushNewScreen(
-                                        context,
-                                        screen: const NotificationForm(),
-                                        withNavBar: false),
-                                bgColor: Theme.of(context).colorScheme.primary,
-                              ),
-                            ListCard(
-                              title: "Donate for Support",
-                              action: () => {},
-                              bgColor: Theme.of(context).colorScheme.primary,
-                            ),
-                            GestureDetector(
-                              onTap: () =>
-                                  ref.read(userAuthentication).googleSignOut(),
-                              child: Container(
-                                width: double.infinity,
-                                margin: const EdgeInsets.only(top: 50),
-                                decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(8),
-                                    border: Border.all(
-                                        width: 1.5, color: Colors.black45)),
-                                child: const Padding(
-                                  padding: EdgeInsets.all(15.0),
-                                  child: Text(
-                                    "Logout",
+                              const Padding(
+                                padding: EdgeInsets.symmetric(vertical: 14.0),
+                                child: Text(
                                     textAlign: TextAlign.center,
+                                    "Jazakummullahi Khairan for your utmost support "),
+                              ),
+                              if (user != null)
+                                ListCard(
+                                  title: "View Identity Card",
+                                  action: () =>
+                                      PersistentNavBarNavigator.pushNewScreen(
+                                          context,
+                                          screen: NavigatorNamed.idCardView(
+                                              name: user.displayName ?? ""),
+                                          withNavBar: false),
+                                  bgColor: Theme.of(context).colorScheme.primary,
+                                ),
+                              if (snapshot.data == true)
+                                ListCard(
+                                  title: "Post for Notification",
+                                  action: () =>
+                                      PersistentNavBarNavigator.pushNewScreen(
+                                          context,
+                                          screen: const NotificationForm(),
+                                          withNavBar: false),
+                                  bgColor: Theme.of(context).colorScheme.primary,
+                                ),
+                              ListCard(
+                                title: "Donate for Support",
+                                action: () => {
+                                  PersistentNavBarNavigator.pushNewScreen(context,
+                                  screen: NavigatorNamed.donation, withNavBar: true)
+                                },
+                                bgColor: Theme.of(context).colorScheme.primary,
+                              ),
+                              GestureDetector(
+                                onTap: () =>
+                                    ref.read(userAuthentication).googleSignOut(),
+                                child: Container(
+                                  width: double.infinity,
+                                  margin: const EdgeInsets.only(top: 50, bottom: 10),
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(8),
+                                      border: Border.all(
+                                          width: 1.5, color: Colors.black45)),
+                                  child: const Padding(
+                                    padding: EdgeInsets.all(15.0),
+                                    child: Text(
+                                      "Logout",
+                                      textAlign: TextAlign.center,
+                                    ),
                                   ),
                                 ),
                               ),
-                            )
-                          ],
+                              DeleteAccount(name: user?.displayName)
+                            ],
+                          ),
                         ),
                       ),
                     ),

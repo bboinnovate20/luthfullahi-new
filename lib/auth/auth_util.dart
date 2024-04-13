@@ -145,7 +145,55 @@ class AuthProvider {
     } finally {}
   }
 
+  appleSignInRe() async {
+        final rawNonce = generateNonce();
+        final nonce = sha256ofString(rawNonce);
+    try {
+
+        final credential = await SignInWithApple.getAppleIDCredential(
+        nonce: nonce,
+        webAuthenticationOptions: WebAuthenticationOptions(
+          clientId: "com.octramarket.luthfullahi",
+          redirectUri: Uri.parse("https://luthfullahi-new.firebaseapp.com/__/auth/handler")
+        ),
+        scopes: [
+          AppleIDAuthorizationScopes.email,
+          AppleIDAuthorizationScopes.fullName,
+        ],
+      );
+
+      final oauthCredential = OAuthProvider("apple.com").credential(
+      idToken: credential.identityToken,
+      rawNonce: rawNonce);
+
+       return await FirebaseAuth.instance.signInWithCredential(oauthCredential);
+      
+
+    } catch (e) {
+      rethrow;
+      // authenticationLoading = false;
+      // return 
+      // return;
+    } finally {}
+  }
+
   googleSignOut() async {
     await _auth.signOut();
+  }
+
+  deleteAccount() async {
+    User? user = FirebaseAuth.instance.currentUser;
+    if (user?.providerData[1].providerId == "apple.com") {
+      await  appleSignInRe();
+
+      User? user = FirebaseAuth.instance.currentUser;
+      user?.delete();
+    } else {
+      await googleSignIn();
+      User? user = FirebaseAuth.instance.currentUser;
+      user?.delete();
+    }
+
+    // await user?.delete();
   }
 }

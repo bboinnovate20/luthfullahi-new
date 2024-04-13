@@ -55,46 +55,10 @@
               "client_type": 3
             },
             {
-              "client_id": "343129270576-l9q66spd642tlk9bv4c01mpkq6scsmho.apps.googleusercontent.com",
+              "client_id": "343129270576-gj40d9de6rkg0q00bct8p8cea8hof4tc.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.babaloworo.luthfullahi"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:343129270576:android:20d5f61ac92eb5e96900f5",
-        "android_client_info": {
-          "package_name": "com.babaloworo.luthfullahiApp.myapp"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "343129270576-908dl2l0c9lqko46q0n0i9rqqerog7pm.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAXx1Y9KPafGtty6kkSTNlf7yDeUYxRZZw"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "343129270576-908dl2l0c9lqko46q0n0i9rqqerog7pm.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "343129270576-l9q66spd642tlk9bv4c01mpkq6scsmho.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.babaloworo.luthfullahi"
+                "bundle_id": "com.octramarket.luthfullahiApp"
               }
             }
           ]

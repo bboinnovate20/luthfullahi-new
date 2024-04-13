@@ -73,7 +73,7 @@ class PrayerTimeUtil {
           prayerTimes.ishaStartTime!
         ]
       ];
-
+    
       List prayerSolat = [];
       if (prayerTimes.nextPrayer() == PrayerType.sunrise) {
         prayerSolat = prayer[1];
@@ -85,11 +85,11 @@ class PrayerTimeUtil {
           }
         }
       }
-
       if (prayerSolat.isNotEmpty && prayerSolat[0] == PrayerType.asr) {
+        
         final checkDifference =
-            DateTime.now().difference(prayerTimes.asrStartTime!);
-        if (checkDifference.inSeconds < 0) {
+            DateTime.now().difference(prayerTimes.asrStartTime!.subtract(const Duration(hours: 1)));
+        if (checkDifference.inSeconds > 0) {
           final maghribNext = [
             PrayerType.maghrib,
             getCustomizedDate(prayerTimes.maghribStartTime!),
@@ -133,7 +133,7 @@ class PrayerTimeUtil {
         ),
         (
           'Asr Prayer Time',
-          prayerTimes.asrStartTime!,
+          prayerTimes.asrStartTime!.subtract(const Duration(hours: 1)),
           getCustomizedDate(
               prayerTimes.asrStartTime!.subtract(const Duration(hours: 1))),
           getCustomizedDate(prayerTimes.asrEndTime!)
